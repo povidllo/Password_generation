@@ -16,7 +16,6 @@ class Password(QMainWindow):
         self.connect_slider_to_spinbox()
         self.set_password()
 
-
     def connect_slider_to_spinbox(self) -> None:
         self.ui.pas_len.valueChanged.connect(self.ui.spinBox.setValue)
         self.ui.spinBox.valueChanged.connect(self.ui.pas_len.setValue)
