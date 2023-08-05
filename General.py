@@ -6,7 +6,6 @@ import buttons
 import main
 from design import Ui_mainWindow
 
-
 class Password(QMainWindow):
     def __init__(self):
         super(Password, self).__init__()
